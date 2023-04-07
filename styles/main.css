@@ -2,7 +2,7 @@
 
 .body {
   
-    background-color: #e4d974;
+    background-color: #eeebe0;
     
   }
 
@@ -18,9 +18,37 @@
   font-family: 'Oswald', sans-serif;
   font-size: 230PX;
   text-shadow: 2px 2px 4px #D696A2;
+  animation: hola 3s ease-in-out 1s 1 normal none;
+  }
+  @keyframes hola {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
   
+    10%,
+    30%,
+    50%,
+    70% {
+      transform: translateX(-10px);
+    }
   
-}
+    20%,
+    40%,
+    60% {
+      transform: translateX(10px);
+    }
+  
+    80% {
+      transform: translateX(8px);
+    }
+  
+    90% {
+      transform: translateX(-8px);
+    }
+  }
+
+
 .menu {
 
   font-family: 'Jost', sans-serif;
