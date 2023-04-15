@@ -69,3 +69,21 @@ padding-left: 20px;
   height: 40vh;
 
 }
+
+table.blueTable {
+  border: 1px solid #D696A2;
+  background-color: #EEEBE0;
+  width: 83%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 9px 3px;
+
+}
+table.blueTable thead {
+  background: #D696A2;
+  text-align: center;
+
+}
